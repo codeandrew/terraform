@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "digitalocean" {
-  token = "dop_v1_7598e9e27f543fe3349c1f30d3b7d220455dd9d07e755217620370b564e591e4"
+  token = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 
 resource "digitalocean_droplet" "example" {

@@ -26,6 +26,5 @@ resource "digitalocean_droplet" "web" {
 }
 
 output "ip_address" {
-  value = digitalocean_droplet.example.ipv4_address
+  value = digitalocean_droplet.web.ipv4_address
 }
-
